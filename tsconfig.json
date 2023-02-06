@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true//obriga que todas as variaveis declaradas que possam pegar null, nao aceite mais null, ex: form.document.querySelector('form')
+        //"removeComments": true |para melhorar o desempnho, deve remover os comentarios
+    },
+    "include": ["app/**/*"]
+}
